@@ -1,0 +1,5 @@
+TODO's cuantocine:
+-->implementar router de angular
+-->request de posters de las pelis a la api, (para la vista de la lista)
+--> queries a la bd
+-->

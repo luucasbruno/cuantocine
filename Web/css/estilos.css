@@ -1,0 +1,352 @@
+@font-face
+{
+   font-family: "MontserratB";
+   src: url("fonts/Montserrat-Bold.ttf");
+  
+}
+
+body {
+	font-family: "MontserratB";
+	width: 72%;
+	margin: 0 auto;
+	font-size: 16px;
+   
+
+}
+
+header{
+	width: 100%;
+	height: 258px;
+	margin: 0 auto;
+	display: block;
+
+}
+
+header .logo {
+	height: 100%;
+	width: 260px;
+	float:left;
+	display: block;
+	clear:both;
+
+}
+
+header .logo img {
+	height: 255px;
+}
+
+header .socialMedia {
+	height: 50px;
+	width: 260px;
+	float:right;
+	margin-top: 40px;
+	background-color: green;
+	display:block;
+	margin-bottom: 0px;
+
+}
+
+header .buscador {
+	height: 45px;
+	width: 326px;
+	float:right;
+	margin-bottom: 0;
+	background-color:#009999;
+	right:0;
+	margin-top: 123px;
+	margin-right: 0px;
+	display:block;
+	clear:right;
+
+}
+
+header .buscador input {
+	background-color: #009999;
+	border:none;
+	font-family: "MontserratB";
+	width: 270px;
+	height: 30px;
+	margin-top: 6px;
+	font-size: 120%;
+	margin-left: 10px;
+	float:left;
+
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+header .buscador img {
+	height: 30px;
+	float:right;
+	margin-top: 5px;
+	margin-right: 7px;
+}
+
+/*ARTICULOS*/
+
+article {
+	height: 200px;
+	width: 70%;
+	float:left;
+	
+}
+
+/*Filtro*/
+article .filtro {
+	height: 53px;
+	width: 80%;
+	margin: 20px auto;
+}
+
+article .filtrar{
+	font-size: 1.6em;
+	color:#009999;
+	display: block;
+	width: max-content;
+	float:left;
+	margin-top: 15px;
+}
+article .filtro ul {
+	list-style-type: none;
+	text-align: center;
+	float:right;
+	display: block;
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+	margin-top: 15px;
+}
+
+article .filtro li {
+
+	display: inline-block;
+	float:left;
+	margin-left: 40px;
+	font-size: 1.6em;
+}
+article .filtro a{
+	text-decoration: none;
+	color: black;
+}
+article .filtro a:active {
+	color:white;
+	background-color: #009999;
+
+}
+article .filtro img {
+	height: 25px;
+	margin-top: 5px;
+}
+
+
+/*Feed*/
+/*Post Grande*/
+article .feed .contenedorGrande {
+	width: 100%;
+	height: 450px;
+	margin:10px auto;
+	background-color: green;
+}
+
+article .feed .postGrande {
+	width: 85%;
+	height: 450px;
+	margin: 0 auto;
+	background-color: #009999;
+	overflow: hidden;
+}
+
+article  .feed img{
+	width: 101%;
+	overflow: hidden;
+	margin: -2px;
+	padding: 0;
+	vertical-align: middle;
+	min-height: 450px;
+	z-index: -1;
+}
+
+article .feed .postGrande .tituloGrande {
+	width: 85%;
+	margin:0 auto;
+	height: 300px;
+	position: absolute;
+	top:130px;
+	left:7.5%;
+	z-index: 2;
+	white-space: pre-wrap;
+	word-break: break-all;
+	hyphens: auto;
+	-webkit-hyphens: manual;
+   -moz-hyphens: manual;
+}
+
+article .feed .postGrande .tituloGrande h1{
+	font-size: 300%;
+	text-align: left;
+	line-height: 0.75em;
+	color:white;
+	background-color: black;
+
+	display: inline;
+	height: 5px;
+	padding: -1em;
+	background-size:80%, 100%;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	word-break: break-all;
+	margin-top: 55px;
+	hyphens: auto;
+	-webkit-hyphens: manual;
+   -moz-hyphens:manual;
+   -ms-hyphens:manual;
+
+
+}
+/*article .feed .postGrande .tituloGrande {
+	width: 80%;
+	margin:0 auto;
+	height: 150px;
+	background-color: green;
+	z-index: 2;
+}*/
+
+/*Recomendados */
+aside {
+	width: 30%;
+	float:right;
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+ /* RESPONSIVE DESKTOP  1224px*/
+
+@media screen and (min-width : 1224px) {
+	body {
+		font-size: 11px;
+	}
+ header{
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+	display: block;
+
+}
+
+header .logo {
+	height: 100%;
+	width: max-content;
+	float:left;
+	display: block;
+	clear:both;
+
+}
+
+header .logo img {
+	height: 180px;
+	margin-top: 10px;
+}
+
+header .socialMedia {
+	height: 30px;
+	width: 150px;
+	float:right;
+	margin-top: 20px;
+	background-color: green;
+	display:block;
+	margin-bottom: 0px;
+
+}
+
+header .buscador {
+	height: 30px;
+	width: 200px;
+	float:right;
+	margin-bottom: 0;
+	background-color:#009999;
+	right:0;
+	margin-top: 120px;
+	margin-right: 0px;
+	display:block;
+	clear:right;
+
+}
+
+header .buscador input {
+	background-color: #009999;
+	border:none;
+	font-family: "MontserratB";
+	width: 150px;
+	height: 20px;
+	margin-top: 4px;
+	font-size: 120%;
+	margin-left: 10px;
+	float:left;
+
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+header .buscador img {
+	height: 20px;
+	float:right;
+	margin-top: 5px;
+	margin-right: 7px;
+}
+
+/*Feed*/
+
+/*Filtro */
+article .filtro img {
+	height: 15px;
+	margin-top: 5px;
+}
+
+/*Post Grande*/
+article .feed .contenedorGrande {
+	height: 300px;
+
+}
+
+article .feed .postGrande {
+	height: 300px;
+
+}
+
+article  .feed img{
+	min-height: 300px;
+}
+
+article .feed .postGrande {
+	position: relative;
+	z-index: 1;
+}
+
+article .feed .postGrande .tituloGrande {
+	width: 85%;
+	margin:0 auto;
+	height: 150px;
+	position: absolute;
+	top:130px;
+	left:7.5%;
+	z-index: 2;
+}
+
+
+article .feed .postGrande .tituloGrande {
+	height: 150px;
+}
+
+
+}

@@ -1,0 +1,6 @@
+<div *ngIf="post">
+    <h1>{{post.title}}</h1>
+    <div *ngFor="let film of post.films">
+        <film [film]="film" [desc]="film.description"></film>
+    </div>
+</div>
