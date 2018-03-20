@@ -1,6 +1,6 @@
-<div>
-    <img src="../../assets/imgs/{{post.img}}">
-    <a  routerLink="/post/{{post._id}}"><h2>{{post.title}}</h2></a>
-    <p>{{post.type}}</p>
-    
-</div>
+    <div [ngClass] = "(size == 'grande')? 'etiquetaGrande': 'etiquetaChica'" (click) = "log()"><a href="#">Películas</a></div>
+    <div [ngClass] = "(size == 'grande')? 'postGrande': 'postChico'">    
+        <img src="../../assets/imgs/post/post1.png">
+        <div lang="es" [ngClass] = "(size == 'grande')? 'tituloGrande': 'tituloChico'"><a  routerLink="/post/{{post._id}}">{{post.title}}</a></div>
+        <p>{{post.type}}</p>
+    </div>

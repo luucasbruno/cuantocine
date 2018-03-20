@@ -1,0 +1,143 @@
+
+header{
+	width: 100%;
+	height: 258px;
+	margin: 0 auto;
+	display: block;
+
+}
+
+header .logo {
+	height: 100%;
+	width: 260px;
+	float:left;
+	display: block;
+	clear:both;
+
+}
+
+header .logo img {
+	height: 255px;
+}
+
+header .socialMedia {
+	height: 50px;
+	width: 260px;
+	float:right;
+	margin-top: 40px;
+	background-color: green;
+	display:block;
+	margin-bottom: 0px;
+
+}
+
+header .buscador {
+	height: 45px;
+	width: 326px;
+	float:right;
+	margin-bottom: 0;
+	background-color:#009999;
+	right:0;
+	margin-top: 123px;
+	margin-right: 0px;
+	display:block;
+	clear:right;
+
+}
+
+header .buscador input {
+	background-color: #009999;
+	border:none;
+	font-family: "MontserratB";
+	width: 270px;
+	height: 30px;
+	margin-top: 6px;
+	font-size: 120%;
+	margin-left: 10px;
+	float:left;
+
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+header .buscador img {
+	height: 30px;
+	float:right;
+	margin-top: 5px;
+	margin-right: 7px;
+}
+@media screen and (max-width: 1800px) {
+	header{
+		width: 100%;
+		height: 200px;
+		margin: 0 auto;
+		display: block;
+	
+	}
+	
+	header .logo {
+		height: 100%;
+		width: max-content;
+		float:left;
+		display: block;
+		clear:both;
+	
+	}
+	
+	header .logo img {
+		height: 180px;
+		margin-top: 10px;
+	}
+	
+	header .socialMedia {
+		height: 30px;
+		width: 150px;
+		float:right;
+		margin-top: 20px;
+		background-color: green;
+		display:block;
+		margin-bottom: 0px;
+	
+	}
+	
+	header .buscador {
+		height: 30px;
+		width: 200px;
+		float:right;
+		margin-bottom: 0;
+		background-color:#009999;
+		right:0;
+		margin-top: 120px;
+		margin-right: 0px;
+		display:block;
+		clear:right;
+	
+	}
+	
+	header .buscador input {
+		background-color: #009999;
+		border:none;
+		font-family: "MontserratB";
+		width: 150px;
+		height: 20px;
+		margin-top: 4px;
+		font-size: 120%;
+		margin-left: 10px;
+		float:left;
+	
+	}
+	
+	textarea:focus, input:focus{
+		outline: none;
+	}
+	
+	header .buscador img {
+		height: 20px;
+		float:right;
+		margin-top: 5px;
+		margin-right: 7px;
+	}
+	
+}

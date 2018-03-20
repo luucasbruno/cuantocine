@@ -1,0 +1,49 @@
+.filtro {
+	height: 53px;
+	width: 80%;
+	margin: 20px auto;
+}
+.filtrar{
+    font-size: 1.6em;
+    color:#009999;
+    display: block;
+    width: max-content;
+    float:left;
+    margin-top: 15px;
+}
+.filtro ul {
+	list-style-type: none;
+	text-align: center;
+	float:right;
+	display: block;
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+	margin-top: 15px;
+}
+
+.filtro li {
+	display: block;
+	float:left;
+	margin-left: 40px;
+	font-size: 1.6em;
+}
+.filtro a{
+	text-decoration: none;
+	color: black;
+}
+.filtro a:active {
+	color:white;
+	background-color: #009999;
+
+}
+.filtro img {
+	height: 25px;
+	margin-top: 5px;
+}
+@media screen and (max-width: 1800px) {
+	.filtro img {
+		height: 15px;
+		margin-top: 5px;
+	}
+}

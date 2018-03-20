@@ -8,8 +8,12 @@ import {Input} from '@angular/core';
 })
 export class PostComponent {
     @Input() post: any;
+    @Input() size: string;
 
   constructor() {
 
+  }
+  log(){
+    console.log(this.size);  
   }
 }

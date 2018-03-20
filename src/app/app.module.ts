@@ -12,13 +12,19 @@ import {HttpClientModule} from '@angular/common/http';
 import {PostService} from './post.service';
 import {FilmService} from './film.service';
 import {FilmComponent} from './film/film.component';
+import {HeaderComponent } from './header/header.component';
+import { FilterComponent } from './filter/filter.component';
+import { PopularFeedComponent } from './popular-feed/popular-feed.component'
 @NgModule({
   declarations: [
     AppComponent,
     MainFeedComponent,
     PostComponent,
     PostPageComponent,
-    FilmComponent
+    FilmComponent,
+    HeaderComponent,
+    FilterComponent,
+    PopularFeedComponent
   ],
   imports: [
     BrowserModule,
